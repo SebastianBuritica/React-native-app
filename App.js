@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import AsyncStorage from '@react-native-async-storage/async-storage'
+import React, { useState, useEffect } from 'react'
 import {Text, View, StyleSheet, StatusBar, TextInput, TouchableOpacity, FlatList} from 'react-native'
 import SingleTodo from './components/SingleTodo'
 // import { Button } from 'react-native-web'
@@ -16,7 +17,15 @@ const App = () => {
     setTodo('')
   }
 
-  console.log(todos)
+  const fetchTodos = async() => {
+    const data = await AsyncStorage.getItem('todos')
+    if(data) setTodos(JSON.parse(data))
+  }
+
+  useEffect(() => {
+    fetchTodos()
+  }, [])
+  
 
   return ( 
     <View style={styles.container}>

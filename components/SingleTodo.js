@@ -29,6 +29,7 @@ export default function SingleTodo({ todo, setTodos, todos }) {
         : t
         )
       )
+      AsyncStorage.setItem('todos',JSON.stringify(todos))
     }
   }
 
