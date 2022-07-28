@@ -6,7 +6,9 @@
 
 
 
-#REACT NATIVE TO-DO APP
+# REACT NATIVE TO-DO APP
+
+
 This application was created using react native and its respective dependencies, the main focus of this project was to use open source to master the practice of react native and developing apps for both iOS and android, different concepts of react were used such as hooks, state, props, etc.
 
 
