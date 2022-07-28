@@ -1,5 +1,14 @@
 # React-native-app
 
+
+
+![WhatsApp Image 2022-07-28 at 6 47 52 PM](https://user-images.githubusercontent.com/93333842/181655961-e28a3c2b-01ab-4c0e-bde0-a84004676556.jpeg)
+
+
+#REACT NATIVE TO-DO APP
+This application was created using react native and its respective dependencies, the main focus of this project was to use open source to master the practice of react native and developing apps for both iOS and android, different concepts of react were used such as hooks, state, props, etc.
+
+
 ## Setup
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
